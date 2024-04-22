@@ -1,0 +1,87 @@
+mysql:
+  host: 'localhost'
+  port: 3306
+  table: 'haymc'
+  username: 'root'
+  password: ''
+
+#turbodrop dla całego serwera 1 minuta = 60000 milisekund
+turbodrop:
+
+Drop:
+  Diamond:
+    name: "&bDiament"
+    material: "DIAMOND"
+    chance: 1.4
+    bonus: 1.0
+    minAmount: 1
+    maxAmount: 2
+    blockY: 50
+    experience: 10
+    fortune: true
+
+  GoldIngot:
+    name: "&eZłoto"
+    material: "GOLD_INGOT"
+    chance: 2.0
+    bonus: 0.5
+    minAmount: 1
+    maxAmount: 3
+    blockY: 50
+    experience: 10
+    fortune: true
+
+  Emerald:
+    name: "&aSzmaragd"
+    material: "EMERALD"
+    chance: 1.6
+    bonus: 0.5
+    minAmount: 1
+    maxAmount: 2
+    blockY: 50
+    experience: 15
+    fortune: true
+
+  IronIngot:
+    name: "&fŻelazo"
+    material: "IRON_INGOT"
+    chance: 2.7
+    bonus: 0.8
+    minAmount: 1
+    maxAmount: 3
+    blockY: 65
+    experience: 5
+    fortune: true
+
+  Coal:
+    name: "&8Węgiel"
+    material: "COAL"
+    chance: 3.6
+    bonus: 0.8
+    minAmount: 1
+    maxAmount: 3
+    blockY: 65
+    experience: 5
+    fortune: false
+
+  Redstone:
+    name: "&cRedstone"
+    material: "REDSTONE"
+    chance: 3.5
+    bonus: 0.8
+    minAmount: 1
+    maxAmount: 3
+    blockY: 65
+    experience: 5
+    fortune: true
+
+  Lapis:
+    name: "&9Lapis"
+    material: "LAPIS_LAZULI"
+    chance: 3.2
+    bonus: 0.8
+    minAmount: 1
+    maxAmount: 2
+    blockY: 50
+    experience: 10
+    fortune: true
